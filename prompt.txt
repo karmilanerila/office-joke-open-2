@@ -1,0 +1,11 @@
+Kamu adalah builder bounty make.fun. Tugas: bangun entri ANGLE-2 (pengganti, genuinely berbeda) untuk bounty u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232 (Make the AI Judge Laugh: the Office Joke Open, $2, top 1 winner-takes-all, FREE, tanpa social).
+
+BACA DULU (sebelum kerja): skill makefun-error-lessons + makefun-submit-lessons + makefun_bounty_workflow. Ikuti semuanya.
+
+FAKTA BOUNTY: Slug u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232. Deadline entri 26 Nov 15:35 WIB. Ronde 3, R1 sudah dinilai, R2 cutoff 23:34 WIB 25 Nov, final R3 26 Nov 15:35 WIB. Entri aktif v1 (id 01a20cb9, "The printer resignation"): R1 1484/2471, 47.88% — jauh di bawah bar top 1 (WTA). ANGLE BARU INI HARUS genuinely berbeda: tetangga ±5 di R1 penuh dengan printer + focus-time + meeting — HINDARI printer, focus-time, DAN "per my last email" sepenuhnya; pakai premis kantor yang BERBEDA. Bukan parafrase line v1. Requirements: program main.py menulis SATU line joke (1-200 chars) ke /output/entry.txt. Baca rules exact dari kit sebelum tulis kode. Kit: ~/workspace/office-joke-open/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232-kit. Jalur submit: repo GitHub --repo-url. JANGAN jalankan kit init / JANGAN commit freshness.json. Repo lokal: ~/workspace/office-joke-open-2. GitHub repo: karmilanerila/office-joke-open-2.
+
+ATURAN KODE: Entrypoint HARUS main.py di root repo. Tulis entrypoint FRESH di sesi ini, revisi dalam ≥2 edit turn terpisah. Semua counted lines authored ≥30%. JANGAN cp/mv direktori lama, JANGAN ketik ulang kode yang pernah kelihatan. JANGAN commit kit/ / comp.json / req.json. Repo hanya: entrypoint + README + LICENSE. Standar output: hormati MAKEFUN_OUTPUT_DIR; tulis langsung open("wb") + chmod 0644; JANGAN tempfile/mkstemp; JANGAN rmSync/hapus /output; tanpa dependensi non-stdlib.
+
+README + ABOUT: README 3 badge live make.fun + footer ?ref=h379tqrk. About: homepage https://make.fun/c/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232 + topic makefun, set via gh repo edit, verifikasi via gh repo view. LICENSE MIT + SPDX-License-Identifier: MIT.
+
+SELESAI: Build + local check + commit + push + verifikasi About/README. STOP sebelum bundle/submit (parent re-bundle dari muse.db + submit).
